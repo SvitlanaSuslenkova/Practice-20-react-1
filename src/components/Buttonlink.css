@@ -1,0 +1,35 @@
+.alink {
+  display: grid;
+  margin-inline: auto;
+  align-items: center;
+  text-align: center;
+  /*background-color: hsl(0, 0%, 20%);*/
+  background-image: linear-gradient(hsl(0, 0%, 22%), hsl(0, 0%, 20%));
+  box-shadow: inset 3px 3px 3px hsl(0, 0%, 100%, 10%),
+    inset -3px -3px 3px hsl(0, 0%, 0%, 50%), 3px 3px 3px hsl(0, 0%, 0%, 10%);
+  border: none;
+  width: 100%;
+  max-width: 500px;
+  height: 45px;
+  border-radius: 0.5em;
+  font-family: inherit;
+  color: hsl(0, 0%, 100%, 90%);
+  letter-spacing: 1px;
+  font-weight: 600;
+  cursor: pointer;
+  text-shadow: -3px -3px 5px hsl(0, 0%, 100%, 10%),
+    3px 3px 5px hsl(0, 0%, 0%, 50%);
+  font-size: 14px;
+}
+.alink:hover {
+  /* background-color: hsl(75, 94%, 57%);*/
+  background-image: linear-gradient(hsl(75, 94%, 57%, 90%), hsl(75, 94%, 27%));
+  color: hsl(0, 0%, 20%);
+  text-shadow: -2px -2px 3px hsl(0, 0%, 0%, 20%),
+    2px 2px 3px hsl(0, 0%, 100%, 30%);
+}
+
+.linkbutton {
+  text-decoration: underline;
+  color: hsl(75, 94%, 57%, 90%);
+}
